@@ -4,3 +4,18 @@
 [rohitdabare@139-162-5-218 test_dir]$ mv example.txt renamed_example.txt              //renamed the empty file
 [rohitdabare@139-162-5-218 test_dir]$ ls                                              
 renamed_example.txt  
+---------------------------------------------------------
+cat /etc/passwd
+[rohitdabare@139-162-5-218 test_dir]$ head -5 /etc/passwd                             
+root:x:0:0:root:/root:/bin/bash                                                       
+bin:x:1:1:bin:/bin:/sbin/nologin                                                      
+daemon:x:2:2:daemon:/sbin:/sbin/nologin                                               
+adm:x:3:4:adm:/var/adm:/sbin/nologin                                                  
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin                                              
+[rohitdabare@139-162-5-218 test_dir]$ tail -5 /etc/passwd                             
+xxxxy:x:379737:379796::/home/xxxxy:                                                   
+mrxshadow745:x:379738:379797::/home/mrxshadow745:                                     
+jcostain11:x:379739:379798::/home/jcostain11:                                         
+vformsp:x:379740:379799::/home/vformsp:                                               
+Marrah:x:379741:379800::/home/Marrah:     
+---------------------------------------------------------
