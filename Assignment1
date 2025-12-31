@@ -1,6 +1,6 @@
-[rohitdabare@139-162-5-218 ~]$ mkdir test_dir                                                                        
-[rohitdabare@139-162-5-218 ~]$ cd test_dir/                                                                           
-[rohitdabare@139-162-5-218 test_dir]$ touch example.txt                                                           
-[rohitdabare@139-162-5-218 test_dir]$ mv example.txt renamed_example.txt              
+[rohitdabare@139-162-5-218 ~]$ mkdir test_dir                                        //Created a directory                                                             
+[rohitdabare@139-162-5-218 ~]$ cd test_dir/                                          //Changed the path to the newly created directory
+[rohitdabare@139-162-5-218 test_dir]$ touch example.txt                              //Created an empty file in the directory       
+[rohitdabare@139-162-5-218 test_dir]$ mv example.txt renamed_example.txt              //renamed the empty file
 [rohitdabare@139-162-5-218 test_dir]$ ls                                              
 renamed_example.txt  
