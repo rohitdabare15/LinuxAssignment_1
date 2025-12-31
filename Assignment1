@@ -1,0 +1,6 @@
+[rohitdabare@139-162-5-218 ~]$ mkdir test_dir                                                                        
+[rohitdabare@139-162-5-218 ~]$ cd test_dir/                                                                           
+[rohitdabare@139-162-5-218 test_dir]$ touch example.txt                                                           
+[rohitdabare@139-162-5-218 test_dir]$ mv example.txt renamed_example.txt              
+[rohitdabare@139-162-5-218 test_dir]$ ls                                              
+renamed_example.txt  
