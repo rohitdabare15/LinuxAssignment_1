@@ -29,3 +29,18 @@ Archive:  test_dir.zip
 [rohitdabare@139-162-5-218 ~]$ ls
 test_dir  test_dir.zip  unzipped_dir
 ---------------------------------------------------------
+[rohitdabare@139-162-5-218 ~]$ wget https://example.com/sample.txt 
+---------------------------------------------------------
+[rohitdabare@139-162-5-218 ~]$ touch secure.txt                                       
+[rohitdabare@139-162-5-218 ~]$ ls
+secure.txt  test_dir  test_dir.zip  unzipped_dir
+[rohitdabare@139-162-5-218 ~]$ ls -l secure*
+-rw-rw-r--. 1 rohitdabare rohitdabare 0 Dec 31 14:47 secure.txt
+[rohitdabare@139-162-5-218 ~]$ chmod 444 secure.txt                                   
+[rohitdabare@139-162-5-218 ~]$ ls -l secure*                                          
+-r--r--r--. 1 rohitdabare rohitdabare 0 Dec 31 14:47 secure.txt
+---------------------------------------------------------
+[rohitdabare@139-162-5-218 ~]$ export MY_VAR=Hello,Linux!                             
+[rohitdabare@139-162-5-218 ~]$ echo $MY_VAR
+Hello,Linux!
+---------------------------------------------------------
