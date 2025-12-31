@@ -19,3 +19,13 @@ jcostain11:x:379739:379798::/home/jcostain11:
 vformsp:x:379740:379799::/home/vformsp:                                               
 Marrah:x:379741:379800::/home/Marrah:     
 ---------------------------------------------------------
+[rohitdabare@139-162-5-218 test_dir]$ cat /etc/passwd | grep root -n                  
+---------------------------------------------------------
+[rohitdabare@139-162-5-218 ~]$ zip test_dir.zip test_dir                              
+  adding: test_dir/ (stored 0%)
+[rohitdabare@139-162-5-218 ~]$ unzip test_dir.zip -d unzipped_dir                     
+Archive:  test_dir.zip
+   creating: unzipped_dir/test_dir/
+[rohitdabare@139-162-5-218 ~]$ ls
+test_dir  test_dir.zip  unzipped_dir
+---------------------------------------------------------
